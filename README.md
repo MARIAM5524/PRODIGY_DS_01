@@ -62,7 +62,7 @@ plt.show()
 
 - Conclusion:
  
-- In this document, we explored a Python script designed for data visualization and analysis using the Pandas and Matplotlib libraries. The script follows a systematic approach to load data from a CSV file, inspect its structure, extract specific columns, and visualize the distribution of a continuous variable ('DistributioOf60th') through a histogram.
+  In this document, we explored a Python script designed for data visualization and analysis using the Pandas and Matplotlib libraries. The script follows a systematic approach to load data from a CSV file, inspect its structure, extract specific columns, and visualize the distribution of a continuous variable ('DistributioOf60th') through a histogram.
 
 The process begins by leveraging Pandas, a powerful library for data manipulation, to read the contents of a CSV file into a DataFrame. This initial step ensures easy handling and analysis of structured data.
 

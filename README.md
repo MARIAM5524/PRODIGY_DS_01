@@ -25,27 +25,44 @@ Reading the CSV File:
 
 ** Plotting the Histogram:
 - Code:
+
 plt.figure(figsize=(8, 6))
-plt.hist(DistributioOf60th, bins=30, color='skyblue', edgecolor='black')
+
+plt.hist(DistributioOf60th, bins=30, color='purple', edgecolor='black')
+
 plt.xlabel('World Development Indicators for 1960')
+
 plt.ylabel('Frequency/Count')
+
 plt.title('Distribution of 1960')
+
 plt.grid(axis='y')
+
 plt.tight_layout()
+
 plt.show()
 
-- Explanation: 
+
+- Explanation:
+
 -- 'plt.figure(figsize=(8, 6))': This line creates a new Matplotlib figure with a size of 8x6 inches for the upcoming plot.
+
 -- 'plt.hist(DistributioOf60th, bins=30, color='purple', edgecolor='black')': This line creates a histogram using Matplotlib's hist() function. It visualizes the distribution of the DistributioOf60th variable with 30 bins, using a purple color for bars and a black edge color.
+
 --'plt.xlabel('World Development Indicators for 1960') and plt.ylabel('Frequency/Count')': These lines set the labels for the x-axis and y-axis of the plot, respectively.
+
 -- 'plt.title('Distribution of Ages')': This line sets the title of the plot to 'Distribution of Ages'.
+
 -- 'plt.grid(axis='y')': This line adds gridlines along the y-axis to the plot for better readability.
+
 -- 'plt.tight_layout()': This line adjusts the layout of the plot to prevent overlapping elements.
+
 -- 'plt.show()': This line displays the plot.
 
 
-- Conclusion
-In this document, we explored a Python script designed for data visualization and analysis using the Pandas and Matplotlib libraries. The script follows a systematic approach to load data from a CSV file, inspect its structure, extract specific columns, and visualize the distribution of a continuous variable ('DistributioOf60th') through a histogram.
+- Conclusion:
+ 
+- In this document, we explored a Python script designed for data visualization and analysis using the Pandas and Matplotlib libraries. The script follows a systematic approach to load data from a CSV file, inspect its structure, extract specific columns, and visualize the distribution of a continuous variable ('DistributioOf60th') through a histogram.
 
 The process begins by leveraging Pandas, a powerful library for data manipulation, to read the contents of a CSV file into a DataFrame. This initial step ensures easy handling and analysis of structured data.
 
